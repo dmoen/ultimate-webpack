@@ -1,0 +1,26 @@
+// Import everything from autoload
+@import './autoload/**/*';
+@import '~bootstrap/scss/bootstrap';
+
+$fa-font-path: '~font-awesome/fonts';
+
+@import '~font-awesome/scss/font-awesome';
+
+body,
+html {
+  color: #fff;
+  background-color: yellow;
+  border-radius: 16px;
+}
+
+div {
+  border-radius: 22px;
+}
+
+.test {
+  display: flex;
+}
+
+::placeholder {
+  color: yellow;
+}
